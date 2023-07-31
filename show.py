@@ -24,7 +24,7 @@ import re
 #os.environ["IMAGEIO_FFMPEG_EXE"] = "mpeg/ffmpeg"
 from moviepy.editor import *
 
-headers = {"Authorization": "Bearer v1.3f1e7e39e674b52ca48c10014606a115a61bf0500c18d126c58040e12fd30beb"}
+headers = {"Authorization": os.environ['neural']}
 
 archetype = ["funny", "absurd", ""]
 fonts = ["comic.ttf", "ARLRDBD.TTF", "georgia.ttf"]
